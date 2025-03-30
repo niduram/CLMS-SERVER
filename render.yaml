@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: my-service
-    env: node
-    buildCommand: "npm install"
-    startCommand: "node ./src/server.js"
