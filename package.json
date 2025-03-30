@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "echo $PWD && ls ./src && node ./src/server.js",
+   "start": "node check-deployment.js",
     "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
